@@ -1,2 +1,2 @@
 # Flask_WTF-Secret
-Webstie with log form with validation
+Webstie with logging form with validation
