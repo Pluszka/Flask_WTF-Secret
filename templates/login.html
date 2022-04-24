@@ -1,0 +1,9 @@
+{% extends 'bootstrap/base.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+{% import 'bootstrap/wtf.html' as wtf %}
+        <div class="container">
+		<h1>Login</h1>
+			{{ wtf.quick_form(form, novalidate=True) }}
+        </div>
+{% endblock %}
